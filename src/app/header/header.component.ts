@@ -2,7 +2,8 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-header',
-  template: `<nav class="navbar is-transparent">
+  template: `
+  <nav class="navbar is-transparent">
   <div class="navbar-brand">
     <a class="navbar-item" href="#">
       <img src="/assets/images/polarpod-logo-text.png" alt="PolarpPod" width="112" height="28">
